@@ -25,3 +25,60 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.gradient-01 {
+  position: absolute;
+  width: 704px;
+  height: 700px;
+  border-radius: 50%;
+  left: -200px;
+  top:-100px;
+  margin-right: 300px;
+
+  background: rgba(48, 9, 190, 0.75);
+  filter: blur(150px);
+  transform: rotate(-53.13deg);
+}
+.gradient-02 {
+  position: absolute;
+  width: 704px;
+  height: 700px;
+  border-radius: 50%;
+  left: 30%;
+  top:-300px;
+  margin-right: 300px;
+
+  background: rgba(48, 9, 190, 0.75);
+  filter: blur(150px);
+  transform: rotate(-53.13deg);
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 704px;
+  height: 700px;
+  border-radius: 50%;
+  left: 0;
+  bottom:-300px;
+
+  background: rgba(101, 242, 247, 0.75);
+  filter: blur(150px);
+  transform: rotate(-53.13deg);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 704px;
+  height: 700px;
+  border-radius: 50%;
+  right: -100px;
+  bottom:-300px;
+
+  background: rgba(101, 242, 247, 0.75);
+  filter: blur(150px);
+  transform: rotate(-53.13deg);
+}
+
+#footer span {
+  cursor: pointer
+}
